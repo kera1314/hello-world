@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>优视多屏</title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+        <script src="js/index.js"></script>
+		<!--[if It IE 9]>
+			<script src="../jquery/jquery-1.11.0.js"></script>
+        <![endif]-->
+        <!--[if gte IE 9]><!-->
+            <script src="../jquery/jquery-2.1.0.js"></script>
+        <!--<![endif]>-->
+	</head>
+	<body>
+		<div id="header">
+			<div class="top">
+				<div class="header_top">
+				    <div class="header_top_left">
+					    <p>优质内容，多屏传播，优质多屏传播欢迎你</p>
+				    </div>
+				    <div class="header_top_right">
+					    <div class="dianhua">
+						    <img src="img/dhlogo.jpg"/><p>电话：89056854</p>
+					    </div>
+					    <div class="xinxiang">
+						    <img src="img/yxlogo.jpg"/><p>serve@yscm.com</p>
+					    </div>
+				    </div>
+			    </div>
+			</div>
+			<div class="header_bottom">
+				    <div class="header_bottom_left">
+					    <div class="logo">
+						    <a href="#"><img src="img/yslogo.jpg"/></a>
+					    </div>
+					    <div class="jianshou">
+						    <a href="#"><p>优视多屏传媒</p><p>WWW.YXCM.NETS</p></a>
+					    </div>
+				    </div>
+				    <div class="header_bottom_nav">
+					    <ul>
+						    <li id="nav1">
+						    	<a href="#"><p>首页</p></a>
+						    </li>
+						    <li id="nav2">
+					    	  <a href="#"><p>新闻内容</p></a>
+						    	<ul id="navUl2">
+						    		<a href="#"><li>早间新闻</li></a>
+						    		<a href="#"><li>午间新闻</li></a>
+						    		<a href="#"><li>晚间新闻</li></a>
+						    	</ul>
+                                <script>
+                                window.onload = function headerBottomNav() {
+							    nav2();
+							    }
+                                </script>
+						    </li>
+						    <li id="nav3">
+						    	<a href="#"><p>行业聚焦</p></a>
+						    	<ul id="navUl3">
+						    		<a href="#"><li>多媒体行业聚焦</li></a>
+						    		<a href="#"><li>新闻聚焦</li></a>
+						    		<a href="#"><li>国家大事</li></a>
+						    	</ul>
+                                <script> nav3(); </script>
+						    </li>
+						    <li id="nav4">
+						    	<a href="#"><p>优势资源</p></a>
+						    	<ul id="navUl4">
+						    		<a href="#"><li>我们的资源</li></a>
+						    		<a href="#"><li>国家投入</li></a>
+						    		<a href="#"><li>客户资源</li></a>
+						    	</ul>
+                                <script>nav4(); </script>
+						    </li>
+						    <li id="nav5">
+						    	<a href="#"><p>合作案例</p></a>
+						    	<ul id="navUl5">
+						    		<a href="#"><li>我们的资源</li></a>
+						    		<a href="#"><li>国家投入</li></a>
+						    		<a href="#"><li>客户资源</li></a>
+						    	</ul>
+                                <script>nav5(); </script>
+						    </li>
+						    <li id="nav6">
+						    	<a href="#"><p>主营业务</p></a>
+						    	<ul id="navUl6">
+						    		<a href="#"><li>外贸业务</li></a>
+						    		<a href="#"><li>大陆业务</li></a>
+						    		<a href="#"><li>海外业务</li></a>
+						    	</ul>
+                                <script>nav6(); </script>
+						    </li>
+						    <li id="nav7">
+						    	<a href="#"><p>联系我们</p></a>
+						    </li>
+					    </ul>
+				    </div>
+				    <div class="header_bottom_right">
+					    <a href="#">登录</a>
+					    <a href="#">注册</a>
+				    </div>
+			    </div>
+		    </div>
+		<div id="main">
+			<a href="#"><img src="img/chubo.jpg"/></a>
+            <a href="#"><img scr="img/paobu.jpg"/></a>
+            <a href="#"><img scr="img/jianshen.jpg"/></a>
+		</div>
+		<div id="big">
+		<div id="news">
+			<div class="news_top">
+				<div class="news_left">
+					<img src="img/aqiyi.jpg"/>
+					<div class="select">
+						<a href="#"><p>优视总裁刘女士为柳工力颁发大奖</p></a>
+						<a href="#"><p>1</p></a>
+						<a href="#"><p>2</p></a>
+						<a href="#"><p>3</p></a>
+						<a href="#"><p>4</p></a>
+					</div>
+				</div>
+				<div class="news_right">
+					<div class="news_right_top">
+						<img src="img/yingsi.jpg"/>
+					</div>
+					<div class="news_right_bottom">
+						<ul>
+							<a href="#"><li>喜讯：暴风科技上市 创业板迎来暴风科技上市</li></a>
+							<a href="#"><li>喜讯：暴风科技上市 创业板迎来暴风科技上市</li></a>
+							<a href="#"><li>喜讯：暴风科技上市 创业板迎来暴风科技上市</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="new">
+			<div class="new_left">
+				<div class="new_left_head">
+					<h1>新闻资讯</h1>
+					<a href="#"><img src="img/gengd.jpg"/></a>
+				</div>
+				<div class="new_left_late">
+					<ul>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+						<li><p><a href="#">喜讯：暴风科技上市 创业板迎来暴风科技上市</a></p><span>2015-8-24</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="new_right">
+				<div class="new_right_head">
+					<h1>关于我们</h1>
+					<a href="#"><img src="img/gengd.jpg"/></a>
+				</div>
+				<div class="new_right_maddle">
+					<img src="img/maddle.jpg"/>
+				</div>
+				<div class="new_right_late">
+					<p>届时，世界各国各类政党的领导人将应邀来华，与中国共产党领导人面对面交流，共同探讨如何发挥政党责任，推动构建人类命运共同体。中国共产党也将在这一高端政治平台上，全面宣介十九大精神，宣介习近平新时代中国特色社会主义思想的科学内涵、实践意义和时代价值...</p>
+					<a href="#">更多>></a>
+				</div>
+			</div>
+		</div>
+		<div id="conter">
+			<div class="conter_head">
+				<div class="conter_head_left">
+					<h1>主营业务</h1>
+				</div>
+				<div class="conter_head_right">
+					<ul>
+						<a href="#"><li>全部</li></a>
+						<a href="#"><li>贴片</li></a>
+						<a href="#"><li>微信</li></a>
+						<a href="#"><li>banner</li></a>
+						<a href="#"><li>频道</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="conter_bottom">
+				<div class="conter_bottom_left1">
+					<img src="img/maddle1.jpg"/>
+					<div class="left1-p">
+						<p>优酷土豆 <span>业务：banner</span></p>
+					</div>
+				</div>
+				<div class="conter_bottom_left2">
+					<img src="img/maddle2.jpg"/>
+					<div class="left2-p">
+					<p>前贴片<span>业务：贴片</span></p>
+					</div>
+				</div>
+				<div class="conter_bottom_left3">
+					<img src="img/maddle3.jpg"/>
+					<div class="left3-p">
+						<p>电视微信<span>业务微信</span></p>
+					</div>
+				</div>
+				<div class="conter_bottom_left4">
+					<img src="img/maddle4.jpg"/>
+					<div class="left4-p">
+						<p>爱奇艺<span>BANNER</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="conters">
+			<div class="conters_head">
+				<div class="conters_head_left">
+					<h1>优视出品</h1>
+				</div>
+				<div class="conters_head_right">
+					<ul>
+						<a href="#"><li>全部</li></a>
+						<a href="#"><li>奇趣视界</li></a>
+						<a href="#"><li>笑谈计划</li></a>
+						<a href="#"><li>陕三一七</li></a>
+						<a href="#"><li>老陕拍视</li></a>
+					</ul>
+				</div>
+			</div>
+			<div class="conters_bottom">
+				<div class="conters_bottom_left1">
+					<img src="img/maddle1.jpg"/>
+					<div class="left1-p">
+						<p>优酷土豆 <span>业务：banner</span></p>
+					</div>
+				</div>
+				<div class="conters_bottom_left2">
+					<img src="img/maddle2.jpg"/>
+					<div class="left2-p">
+					<p>前贴片<span>业务：贴片</span></p>
+					</div>
+				</div>
+				<div class="conters_bottom_left3">
+					<img src="img/maddle3.jpg"/>
+					<div class="left3-p">
+						<p>电视微信<span>业务微信</span></p>
+					</div>
+				</div>
+				<div class="conters_bottom_left4">
+					<img src="img/maddle4.jpg"/>
+					<div class="left4-p">
+						<p>爱奇艺<span>BANNER</span></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		<div id="zero">
+			<div class="zero_lat">
+				<div class="zero_top">
+				    <h1>合作案例</h1>
+			    </div>
+			    <div class="zero_left">
+				    <img src="img/late.jpg"/>
+				    <h1>硬广投放</h1>
+				    <p>覆盖PC 电视  移动三大终端  贴片 中插  倒序贴片等多种选择的CMP科学计算</p>
+			    </div>
+			    <div class="zero_maddle">
+				    <img src="img/late.jpg"/>
+				    <h1>硬广投放</h1>
+				    <p>覆盖PC 电视  移动三大终端  贴片 中插  倒序贴片等多种选择的CMP科学计算</p>
+			    </div>
+			    <div class="zero_right">
+				    <img src="img/late.jpg"/>
+				    <h1>硬广投放</h1>
+				    <p>覆盖PC 电视  移动三大终端  贴片 中插  倒序贴片等多种选择的CMP科学计算</p>
+			    </div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer_head">
+				<div class="footer_head_top">
+					<a href="#"><p>合作客户</p></a>
+					<a href="#"><p>合作企业</p></a>
+				</div>
+				<div class="footer_head_bottom">
+					<a href="#"><img src="img/xiaoy.jpg"/></a>
+					<a href="#"><img src="img/sflogo.jpg"/></a>
+					<a href="#"><img src="img/felogo.jpg"/></a>
+					<a href="#"><img src="img/stlogo.jpg"/></a>
+					<a href="#"><img src="img/felogo.jpg"/></a>
+					<a href="#"><img src="img/sflogo.jpg"/></a>
+					<a href="#"><img src="img/htlogo.jpg"/></a>
+					<a href="#"><img src="img/htlogo.jpg"/></a>
+					<a href="#"><img src="img/felogo.jpg"/></a>
+					<a href="#"><img src="img/sflogo.jpg"/></a>
+					<a href="#"><img src="img/felogo.jpg"/></a>
+					<a href="#"><img src="img/dayu.jpg"/></a>
+				</div>
+			</div>
+			<div class="footer_maddle">
+				<div class="footer_maddle_rest">
+				    <div class="footer_maddle_left1">
+					    <img src="img/exlogo.jpg"/>
+					    <div class="left1_p">
+					    	<p>多屏 无限精彩</p>
+					        <p>陕ICP备14005838号-1</p>
+					    </div>
+				    </div>
+				    <div class="footer_maddle_left2">
+					    <h1>联系地址</h1>
+					    <p>中国陕西省西安市曲江泛美</p>
+					    <span>国际大厦</span>
+					    <em>邮政：713006</em>
+				    </div>
+				    <div class="footer_maddle_right1">
+					    <p>服务项目</p>
+					    <p>优视多屏传媒以网络为核心</p>
+					    <p>携手中国中国视频网站，媒体</p>
+					    <p>机构，门户网站等</p>
+				    </div>
+				    <div class="footer_maddle_right2">
+					    <p>服务热线</p>
+					    <p>029-6565-8976</p>
+					    <p>客服热线7*24小时为你服务</p>
+				    </div>
+				</div>
+			</div>
+			<div class="footer_late">
+				<div class="footer_late_all">
+					<div class="footer_late_all_left">
+					    <ul>
+						    <a href="#"><li>网站首页</li></a>
+						    <a href="#"><li>新闻中心</li></a>
+						    <a href="#"><li>行业聚焦</li></a>
+						    <a href="#"><li>优势资源</li></a>
+						    <a href="#"><li>主营业务</li></a>
+						    <a href="#"><li>合作案例</li></a>
+						    <a href="#"><li>联系我们</li></a>
+					    </ul>
+				    </div>
+				    <div class="footer_late_all_right">
+					    <p>copyright&copy; 2014 YSMC All Right Reseved</p>
+				    </div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
